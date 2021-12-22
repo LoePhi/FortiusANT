@@ -60,7 +60,7 @@ mile            = 1.609344  # km
 #-------------------------------------------------------------------------------
 # Commandline / Settings constants
 #-------------------------------------------------------------------------------
-Transmission = "34-50*x34-30-27-25-23-21-19*-17-15-13-11"      # No spaces here!
+Transmission = "34-50*x34-30-27-25-23-21-19-17-15-13*-11"      # No spaces here!
 
 help_A = "Pedal Stroke Analysis."
 help_B = "ANT DeviceNumber range Base, making multiple FortiusAnt sessions unique."

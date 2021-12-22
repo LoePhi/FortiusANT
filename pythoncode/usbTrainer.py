@@ -2919,7 +2919,7 @@ class clsTacxNewUsbTrainer(clsTacxUsbTrainer):
             # e.g. Tacx Flow: Magnetic Brake T1901 connected to head unit T1932
             #-------------------------------------------------------------------
             if self.WheelSpeed > 0:
-                for i in range(0, len(self.currentR)):
+                for i in range(5, len(self.currentR)):
                     if self.Resistance2PowerMB(self.currentR[i], self.SpeedKmh) >= self.TargetPower:
                         break
                 rtn = self.targetR[i]
